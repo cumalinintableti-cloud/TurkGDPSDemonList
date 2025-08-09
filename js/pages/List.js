@@ -43,7 +43,7 @@ export default {
                     <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
                     <ul class="stats">
                         <li>
-                            <div class="type-title-sm">Points when completed</div>
+                            <div class="type-title-sm">Puan</div>
                             <p>{{ score(selected + 1, 100, level.percentToQualify) }}</p>
                         </li>
                         <li>
@@ -51,11 +51,11 @@ export default {
                             <p>{{ level.id }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">Password</div>
-                            <p>{{ level.password || 'Free to Copy' }}</p>
+                            <div class="type-title-sm">Reupload</div>
+                            <p>{{ level.reupload || 'Hayır' }}</p>
                         </li>
                     </ul>
-                    <h2>Records</h2>
+                    <h2>Kayıtlar</h2>
                     <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
                     <p v-else-if="selected +1 <= 150"><strong>100%</strong> or better to qualify</p>
                     <p v-else>This level does not accept new records.</p>
@@ -89,7 +89,7 @@ export default {
                         <p class="type-label-md">Website layout made by <a href="https://tsl.pages.dev/" target="_blank">TheShittyList</a></p>
                     </div>
                     <template v-if="editors">
-                        <h3>List Editors</h3>
+                        <h3>List Editörleri</h3>
                         <ol class="editors">
                             <li v-for="editor in editors">
                                 <img :src="\`/assets/\${roleIconMap[editor.role]}\${store.dark ? '-dark' : ''}.svg\`" :alt="editor.role">
@@ -98,7 +98,7 @@ export default {
                             </li>
                         </ol>
                     </template>
-                    <h3>Submission Requirements</h3>
+                    <h3>Kayıt Gereksinimleri</h3>
                     <p>
                         Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps)
                     </p>
