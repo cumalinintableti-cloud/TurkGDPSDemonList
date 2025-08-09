@@ -1,4 +1,4 @@
-:root, {
+:root {
     --color-background: white;
     --color-on-background: #f44336;
     --color-background-hover: #eee;
@@ -12,7 +12,7 @@
 main.dark,
 header.dark {
     color-scheme: dark;
-   --color-background: #333333;
+    --color-background: #333333;
     --color-on-background: white;
     --color-background-hover: black;
     --color-on-background-hover: #ff6c6c;
@@ -24,7 +24,7 @@ header.dark {
 
 html,
 body {
-    height: ;
+    height: 100%;
 }
 
 body {
@@ -38,10 +38,7 @@ main {
     background-color: var(--color-background);
     color: var(--color-on-background);
     display: grid;
-    grid-template-columns: minmax(16rem, 1fr) minmax(16rem, 2fr) minmax(
-            16em,
-            1fr
-        );
+    grid-template-columns: minmax(16rem, 1fr) minmax(16rem, 2fr) minmax(16em, 1fr);
     column-gap: 2rem;
 }
 
@@ -52,12 +49,14 @@ header {
     background-color: var(--color-primary);
     color: var(--color-on-primary);
 }
+
 @media screen and (min-width: 1366px) {
     header {
         display: grid;
         padding-inline: 0;
     }
 }
+
 header .logo {
     justify-self: end;
     align-self: center;
@@ -65,6 +64,7 @@ header .logo {
     align-items: flex-end;
     gap: 1rem;
 }
+
 header .nav {
     flex: 1;
 }
@@ -76,6 +76,7 @@ main {
     grid-template-rows: minmax(0, 1fr);
     column-gap: 2rem;
 }
+
 main > div {
     overflow-y: auto;
 }
