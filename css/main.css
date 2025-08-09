@@ -1,9 +1,9 @@
-:root {
+:root, {
     --color-background: white;
-    --color-on-background: black;
+    --color-on-background: #f44336;
     --color-background-hover: #eee;
-    --color-on-background-hover: black;
-    --color-primary: #0066ff;
+    --color-on-background-hover: #ff6c6c;
+    --color-primary: #f44336;
     --color-on-primary: white;
     --color-error: #de0000;
     --color-on-error: white;
@@ -12,20 +12,19 @@
 main.dark,
 header.dark {
     color-scheme: dark;
-    --color-background: #1c1b1f;
+   --color-background: #333333;
     --color-on-background: white;
-    --color-background-hover: #27262c;
-    --color-on-background-hover: white;
-    --color-primary: #283593;
-    --color-primary-disabled: #1f213c;
-    --color-on-primary: white;
+    --color-background-hover: black;
+    --color-on-background-hover: #ff6c6c;
+    --color-primary: #f44336;
+    --color-on-primary: black;
     --color-error: #de0000;
-    --color-on-error: white;
+    --color-on-error: #333333;
 }
 
 html,
 body {
-    height: 100%;
+    height: ;
 }
 
 body {
