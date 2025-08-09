@@ -13,27 +13,27 @@ export default {
         <main v-else class="page-roulette">
             <div class="sidebar">
                 <p class="type-label-md" style="color: #aaa">
-                    Shameless copy of the Extreme Demon Roulette by <a href="https://matcool.github.io/extreme-demon-roulette/" target="_blank">matcool</a>.
+                    matcool'un Extreme Demon Ruleti'nin bir kopyasıdır. (<a href="https://matcool.github.io/extreme-demon-roulette/" target="_blank">orijinal</a>)
                 </p>
                 <form class="options">
                     <div class="check">
                         <input type="checkbox" id="main" value="Main List" v-model="useMainList">
-                        <label for="main">Main List</label>
+                        <label for="main">Ana Liste</label>
                     </div>
                     <div class="check">
                         <input type="checkbox" id="extended" value="Extended List" v-model="useExtendedList">
-                        <label for="extended">Extended List</label>
+                        <label for="extended">Genişletilmiş Liste</label>
                     </div>
-                    <Btn @click.native.prevent="onStart">{{ levels.length === 0 ? 'Start' : 'Restart'}}</Btn>
+                    <Btn @click.native.prevent="onStart">{{ levels.length === 0 ? 'Başlat' : 'Yeniden Başlat'}}</Btn>
                 </form>
                 <p class="type-label-md" style="color: #aaa">
-                    The roulette saves automatically.
+                    Rulet otomatik olarak kaydedilir.
                 </p>
                 <form class="save">
-                    <p>Manual Load/Save</p>
+                    <p>Elle Yükle/Kaydet</p>
                     <div class="btns">
-                        <Btn @click.native.prevent="onImport">Import</Btn>
-                        <Btn :disabled="!isActive" @click.native.prevent="onExport">Export</Btn>
+                        <Btn @click.native.prevent="onImport">İçe Aktar</Btn>
+                        <Btn :disabled="!isActive" @click.native.prevent="onExport">Dışa Aktar</Btn>
                     </div>
                 </form>
             </div>
@@ -63,16 +63,16 @@ export default {
                             </div>
                             <form class="actions" v-if="!givenUp">
                                 <input type="number" v-model="percentage" :placeholder="placeholder" :min="currentPercentage + 1" max=100>
-                                <Btn @click.native.prevent="onDone">Done</Btn>
-                                <Btn @click.native.prevent="onGiveUp" style="background-color: #e91e63;">Give Up</Btn>
+                                <Btn @click.native.prevent="onDone">Tamamlandı</Btn>
+                                <Btn @click.native.prevent="onGiveUp" style="background-color: #e91e63;">Pes Et</Btn>
                             </form>
                         </div>
                         <!-- Results -->
                         <div v-if="givenUp || hasCompleted" class="results">
-                            <h1>Results</h1>
-                            <p>Number of levels: {{ progression.length }}</p>
-                            <p>Highest percent: {{ currentPercentage }}%</p>
-                            <Btn v-if="currentPercentage < 99 && !hasCompleted" @click.native.prevent="showRemaining = true">Show remaining levels</Btn>
+                            <h1>Sonuçlar</h1>
+                            <p>Seviye sayısı: {{ progression.length }}</p>
+                            <p>En yüksek yüzde: {{ currentPercentage }}%</p>
+                            <Btn v-if="currentPercentage < 99 && !hasCompleted" @click.native.prevent="showRemaining = true">Kalan seviyeleri göster</Btn>
                         </div>
                         <!-- Remaining Levels -->
                         <template v-if="givenUp && showRemaining">
@@ -102,7 +102,7 @@ export default {
     data: () => ({
         loading: false,
         levels: [],
-        progression: [], // list of percentages completed
+        progression: [], // tamamlanan yüzde listesi
         percentage: undefined,
         givenUp: false,
         showRemaining: false,
@@ -112,14 +112,14 @@ export default {
         fileInput: undefined,
     }),
     mounted() {
-        // Create File Input
+        // Dosya giriş elemanı oluştur
         this.fileInput = document.createElement('input');
         this.fileInput.type = 'file';
         this.fileInput.multiple = false;
         this.fileInput.accept = '.json';
         this.fileInput.addEventListener('change', this.onImportUpload);
 
-        // Load progress from local storage
+        // İlerlemeyi yerel depodan yükle
         const roulette = JSON.parse(localStorage.getItem('roulette'));
 
         if (!roulette) {
@@ -137,7 +137,7 @@ export default {
             return this.progression[this.progression.length - 1] || 0;
         },
         placeholder() {
-            return `At least ${this.currentPercentage + 1}%`;
+            return `En az ${this.currentPercentage + 1}%`;
         },
         hasCompleted() {
             return (
@@ -159,7 +159,7 @@ export default {
         getYoutubeIdFromUrl,
         async onStart() {
             if (this.isActive) {
-                this.showToast('Give up before starting a new roulette.');
+                this.showToast('Yeni bir rulet başlatmadan önce pes et.');
                 return;
             }
 
@@ -174,7 +174,7 @@ export default {
             if (fullList.filter(([_, err]) => err).length > 0) {
                 this.loading = false;
                 this.showToast(
-                    'List is currently broken. Wait until it\'s fixed to start a roulette.',
+                    'Liste şu anda çalışmıyor. Rulet başlatmak için düzelmesini bekleyin.',
                 );
                 return;
             }
@@ -191,7 +191,7 @@ export default {
                 list.push(...fullListMapped.slice(75, 150));
             }
 
-            // random 100 levels
+            // Rastgele 100 seviye
             this.levels = shuffle(list).slice(0, 100);
             this.showRemaining = false;
             this.givenUp = false;
@@ -218,7 +218,7 @@ export default {
                 this.percentage <= this.currentPercentage ||
                 this.percentage > 100
             ) {
-                this.showToast('Invalid percentage.');
+                this.showToast('Geçersiz yüzde.');
                 return;
             }
 
@@ -230,13 +230,13 @@ export default {
         onGiveUp() {
             this.givenUp = true;
 
-            // Save progress
+            // İlerlemeyi sil
             localStorage.removeItem('roulette');
         },
         onImport() {
             if (
                 this.isActive &&
-                !window.confirm('This will overwrite the currently running roulette. Continue?')
+                !window.confirm('Bu, mevcut ruleti silecektir. Devam etmek istiyor musunuz?')
             ) {
                 return;
             }
@@ -249,7 +249,7 @@ export default {
             const file = this.fileInput.files[0];
 
             if (file.type !== 'application/json') {
-                this.showToast('Invalid file.');
+                this.showToast('Geçersiz dosya.');
                 return;
             }
 
@@ -257,7 +257,7 @@ export default {
                 const roulette = JSON.parse(await file.text());
 
                 if (!roulette.levels || !roulette.progression) {
-                    this.showToast('Invalid file.');
+                    this.showToast('Geçersiz dosya.');
                     return;
                 }
 
@@ -268,7 +268,7 @@ export default {
                 this.showRemaining = false;
                 this.percentage = undefined;
             } catch {
-                this.showToast('Invalid file.');
+                this.showToast('Geçersiz dosya.');
                 return;
             }
         },
