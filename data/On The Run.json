@@ -8,5 +8,11 @@
     "percentToQualify": 100,
     "reupload": "Evet",
     "records": [
+          {
+              "user": "Acidcat",
+            "link": "#",
+            "percent": 100,
+            "hz": "-"
+        }
     ]
 }
