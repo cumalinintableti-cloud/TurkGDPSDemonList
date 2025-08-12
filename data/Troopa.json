@@ -7,8 +7,13 @@
     "verification": "#",
     "percentToQualify": 100,
     "reupload": "Evet",
-    "records": [  
+    "records": [
     
-
+          {
+              "user": "Cretnox",
+            "link": "#",
+            "percent": 100,
+            "hz": "-"
+        }
     ]
 }
