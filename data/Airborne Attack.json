@@ -3,17 +3,11 @@
     "name": "Airborne Attack",
     "author": "OZKANBRO",
     "creators": ["OZKANBRO"],
-    "verifier": "OZKANBRO",
+    "verifier": "GrainBoi",
     "verification": "#",
     "percentToQualify": 100,
     "reupload": "Evet",
     "records": [
-         {
-            "user": "GrainBoi",
-            "link": "#",
-            "percent": 100,
-            "hz": 120
-        },
         {
               "user": "MyniwGuels",
             "link": "#",
