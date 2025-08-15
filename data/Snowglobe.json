@@ -8,6 +8,18 @@
     "percentToQualify": 100,
     "reupload": "Evet",
     "records": [
+        {
+              "user": "GrainBoi",
+            "link": "https://www.youtube.com/watch?v=4w0v8PnLNEA&t=1451s",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+              "user": "Lightworkk",
+            "link": "https://www.youtube.com/watch?v=4w0v8PnLNEA&t=1451s",
+            "percent": 100,
+            "hz": "-"
+        }
        
     ]
 }
