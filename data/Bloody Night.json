@@ -3,16 +3,11 @@
     "name": "bloody night",
     "author": "emirkingdom",
     "creators": ["emirkingdom"],
-    "verifier": "-",
+    "verifier": "GrainBoi",
     "verification": "#",
     "percentToQualify": 100,
     "reupload": "Evet",
     "records": [
-        {
-              "user": "GrainBoi",
-            "link": "#",
-            "percent": 100,
-            "hz": 120
-        }
+    
     ]
 }
