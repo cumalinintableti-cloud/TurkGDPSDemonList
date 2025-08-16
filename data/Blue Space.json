@@ -8,7 +8,12 @@
     "percentToQualify": 100,
     "reupload": "Hayır",
     "records": [
-        
+         {
+              "user": "quadrixZ",
+            "link": "https://www.youtube.com/watch?v=7yKQNqVh6fU",
+            "percent": 100,
+            "hz": "-"
+        }
       
     ]
 }
