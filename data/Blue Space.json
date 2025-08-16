@@ -3,17 +3,12 @@
     "name": "blue space",
     "author": "emirkingdom",
     "creators": ["emirkingdom"],
-    "verifier": "emirkingdom",
-    "verification": "#",
+    "verifier": "quadrixZ",
+    "verification": "https://www.youtube.com/watch?v=7yKQNqVh6fU",
     "percentToQualify": 100,
     "reupload": "Hayır",
     "records": [
-         {
-              "user": "quadrixZ",
-            "link": "https://www.youtube.com/watch?v=7yKQNqVh6fU",
-            "percent": 100,
-            "hz": "-"
-        }
+
       
     ]
 }
