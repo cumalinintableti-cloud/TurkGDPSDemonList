@@ -8,5 +8,11 @@
     "percentToQualify": 100,
     "reupload": "Hayır",
     "records": [
+         {
+            "user": "GrainBoi",
+            "link": "#",
+            "percent": 100,
+            "hz": 120
+        }
     ]
 }
