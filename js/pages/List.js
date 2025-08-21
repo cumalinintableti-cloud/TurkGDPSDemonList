@@ -105,6 +105,9 @@ export default {
                     <p>
                         Eğer insane/extreme demon kaydı yolluyorsanız kaydınızda tıklama sesleri bulunmalı ve önceki attemptin ölüm animasyonunu göstermelidir
                     </p>
+                    <p>
+                        Hard demonlar için tıklama sesi gerekmese bile önceki attempt ve endscreen gösterilmelidir.
+                    </p>
                 </div>
             </div>
         </main>
