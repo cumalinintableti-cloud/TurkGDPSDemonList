@@ -31,6 +31,12 @@
             "link": "#",
             "percent": 100,
             "hz": "-"
+        },
+        {
+              "user": "MyniwGuels",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
         }
     ]
 }
