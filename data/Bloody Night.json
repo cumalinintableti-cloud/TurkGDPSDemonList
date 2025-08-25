@@ -1,7 +1,7 @@
 {
     "id": 227,
     "name": "bloody night",
-    "author": "MyniwGuels",
+    "author": "emirkingdom",
     "creators": ["emirkingdom"],
     "verifier": "GrainBoi",
     "verification": "#",
@@ -13,7 +13,13 @@
             "link": "#",
             "percent": 100,
             "hz": 360
-        }   
+        },
+        {
+              "user": "Arceus",
+            "link": "#",
+            "percent": 100,
+            "hz": "-"
+        }
     
     ]
 }
