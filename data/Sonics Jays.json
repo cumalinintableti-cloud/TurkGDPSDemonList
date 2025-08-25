@@ -13,6 +13,18 @@
             "link": "#",
             "percent": 100,
             "hz": 120
+        },
+        {
+            "user": "Arceus",
+            "link": "#",
+            "percent": 100,
+            "hz": "-"
+        },
+        {
+            "user": "MyniwGuels",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
         }
     ]
 }
