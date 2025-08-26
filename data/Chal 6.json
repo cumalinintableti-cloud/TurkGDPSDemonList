@@ -13,6 +13,12 @@
             "link": "https://youtu.be/dQw4w9WgXcQ?si=6WaQvgGDtFzHNhtU",
             "percent": 100,
             "hz": 360
+        },      
+        {
+            "user": "GrainBoi",
+            "link": "#",
+            "percent": 100,
+            "hz": 120
         }
     ]
 }
