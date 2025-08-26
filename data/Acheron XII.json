@@ -1,0 +1,16 @@
+{
+    "id": 405,
+    "name": "Acheron XII",
+    "author": "CirclezGD",
+    "creators": ["CirclezGD"],
+    "verifier": "CirclezGD",
+    "verification": "#",
+    "percentToQualify": 100,
+    "reupload": "Evet",
+    "records": [  
+        {
+            "user": "MyniwGuels",
+            "link": "https://youtu.be/XlKm129rhdc?si=M-ASht9Xn9ezHS0s",
+            "percent": 100,
+            "hz": 360
+        }
