@@ -1,0 +1,18 @@
+{
+    "id": 407,
+    "name": "yaSInK",
+    "author": "CirclezGD",
+    "creators": ["CirclezGD"],
+    "verifier": "CirclezGD",
+    "verification": "https://youtu.be/ES6OoZfyQEE?si=fKB0Jk7JH5Hn_lcE",
+    "percentToQualify": 100,
+    "reupload": "Evet",
+    "records": [
+         {
+              "user": "MyniwGuels",
+            "link": "https://www.youtube.com/watch?v=5bO28FI51kw&lc=Ugy764ozVjYH0nDdy4p4AaABAg",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}
