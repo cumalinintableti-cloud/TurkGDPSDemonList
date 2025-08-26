@@ -108,6 +108,9 @@ export default {
                     <p>
                         Hard demonlar için tıklama sesi gerekmese bile önceki attempt ve endscreen gösterilmelidir.
                     </p>
+                    <p>
+                        Levelin büyük kısmını atlamış kayıtlar kabul edilmeyecektir.
+                    </p>
                 </div>
             </div>
         </main>
