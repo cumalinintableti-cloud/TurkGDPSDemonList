@@ -3,16 +3,11 @@
     "name": "bussin turk 4",
     "author": "Inmmorta",
     "creators": ["Inmmorta"],
-    "verifier": "-",
+    "verifier": "GrainBoi",
     "verification": "#",
     "percentToQualify": 100,
     "reupload": "Hayır",
     "records": [
-        {
-              "user": "GrainBoi",
-            "link": "#",
-            "percent": 100,
-            "hz": 120
-        }
+
     ]
 }
