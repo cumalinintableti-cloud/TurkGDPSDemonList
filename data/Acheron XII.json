@@ -7,12 +7,12 @@
     "verification": "#",
     "percentToQualify": 100,
     "reupload": "Evet",
-    "records": [  
+    "records": [
         {
-            "user": "MyniwGuels",
-            "link": "https://youtu.be/XlKm129rhdc?si=M-ASht9Xn9ezHS0s",
+              "user": "MyniwGuels",
+            "link": "https://www.youtube.com/watch?v=XlKm129rhdc&feature=youtu.be",
             "percent": 100,
             "hz": 360
-            ]
-          }
         }
+    ]
+}
