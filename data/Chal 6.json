@@ -1,0 +1,18 @@
+{
+    "id": 402,
+    "name": "Chal 6",
+    "author": "alimert",
+    "creators": ["alimert"],
+    "verifier": "alimert",
+    "verification": "#",
+    "percentToQualify": 100,
+    "reupload": "Hayır",
+    "records": [
+         {
+              "user": "MyniwGuels",
+            "link": "https://youtu.be/dQw4w9WgXcQ?si=6WaQvgGDtFzHNhtU",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}
