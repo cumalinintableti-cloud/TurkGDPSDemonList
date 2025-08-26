@@ -1,0 +1,18 @@
+{
+    "id": 398,
+    "name": "Shapeshifter speed",
+    "author": "ceoplays",
+    "creators": ["ceoplays"],
+    "verifier": "ceoplays",
+    "verification": "#",
+    "percentToQualify": 100,
+    "reupload": "Hayır",
+    "records": [
+        {
+              "user": "Lightworkk",
+            "link": "#",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
