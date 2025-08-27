@@ -1,0 +1,18 @@
+{
+    "id": 396,
+    "name": "Dokuz Daireler",
+    "author": "CirclezGD",
+    "creators": ["CirclezGD"],
+    "verifier": "CirclezGD",
+    "verification": "https://youtu.be/jOVCqs82rJc?si=GzPuYkSlSP3aoGUD",
+    "percentToQualify": 100,
+    "reupload": "Evet",
+    "records": [
+         {
+              "user": "GhostLord",
+            "link": "#",
+            "percent": 100,
+            "hz": "-"
+        }
+    ]
+}
