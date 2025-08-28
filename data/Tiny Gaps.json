@@ -1,0 +1,30 @@
+{
+    "id": 418,
+    "name": "Tiny Gaps",
+    "author": "ceoplays",
+    "creators": ["ceoplays"],
+    "verifier": "ceoplays",
+    "verification": "#",
+    "percentToQualify": 100,
+    "reupload": "Hayır",
+    "records": [
+         {
+              "user": "MyniwGuels",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+              "user": "Lightworkk",
+            "link": "#",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "GrainBoi",
+            "link": "#",
+            "percent": 100,
+            "hz": "120"
+        }
+    ]
+}
