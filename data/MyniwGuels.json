@@ -8,6 +8,17 @@
     "percentToQualify": 100,
     "reupload": "Hayır",
     "records": [
-       
+        {
+            "user": "MyniwGuels",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+         },
+         {
+            "user": "quadrixZ",
+            "link": "#",
+            "percent": 100,
+            "hz": "-"
+         }
     ]
 }
