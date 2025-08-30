@@ -38,5 +38,11 @@
             "percent": 100,
             "hz": 120
         }
+         {
+            "user": "quadrixZ",
+            "link": "#",
+            "percent": 100,
+            "hz": "-"
+         }
     ]
 }
