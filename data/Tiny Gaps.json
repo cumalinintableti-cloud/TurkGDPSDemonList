@@ -37,6 +37,12 @@
             "link": "#",
             "percent": 100,
             "hz": 200
+         },
+         {
+            "user": "alimert",
+            "link": "#",
+            "percent": 100,
+            "hz": "-"
          }
     ]
 }
