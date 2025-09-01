@@ -31,6 +31,12 @@
             "link": "#",
             "percent": 100,
             "hz": 144
-        }
+        },
+        {
+              "user": "[BONK] Rushiki",
+            "link": "#",
+            "percent": 100,
+            "hz": "-"
+        }  
     ]
 }
