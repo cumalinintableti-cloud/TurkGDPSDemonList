@@ -13,7 +13,12 @@
             "link": "#",
             "percent": 100,
             "hz": 120
-        }
-       
+        },    
+        {
+              "user": "Lightworkk",
+            "link": "#",
+            "percent": 100,
+            "hz": 240
+        }        
     ]
 }
