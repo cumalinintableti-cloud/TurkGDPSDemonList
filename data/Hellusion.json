@@ -1,0 +1,30 @@
+{
+    "id": 471,
+    "name": "Hellusion",
+    "author": "CirclezGD",
+    "creators": ["CirclezGD"],
+    "verifier": "CirclezGD",
+    "verification": "#",
+    "percentToQualify": 100,
+    "reupload": "Evet",
+    "records": [
+         {
+            "user": "GrainBoi",
+            "link": "#",
+            "percent": 100,
+            "hz": 120
+        },
+         {
+              "user": "MyniwGuels",
+            "link": "#",
+            "percent": 100,
+            "hz": 360
+        },
+         {
+              "user": "Lightworkk",
+            "link": "#",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
