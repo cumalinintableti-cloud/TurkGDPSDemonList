@@ -1,0 +1,18 @@
+{
+    "id": 459,
+    "name": "UltraChal",
+    "author": "CirclezGD",
+    "creators": ["CirclezGD"],
+    "verifier": "CirclezGD",
+    "verification": "#",
+    "percentToQualify": 100,
+    "reupload": "Hayır",
+    "records": [
+        {
+              "user": "Lightworkk",
+            "link": "#",
+            "percent": 100,
+            "hz": 200
+        } 
+    ]
+}
