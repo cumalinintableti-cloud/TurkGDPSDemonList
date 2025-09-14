@@ -1,0 +1,18 @@
+{
+    "id": 516,
+    "name": "Stereo Circles",
+    "author": "CirclezGD",
+    "creators": ["CirclezGD"],
+    "verifier": "CirclezGD",
+    "verification": "#",
+    "percentToQualify": 100,
+    "reupload": "Evet",
+    "records": [
+         {
+              "user": "GhostLord",
+            "link": "#",
+            "percent": 100,
+            "hz": 144
+        }
+    ]
+}
