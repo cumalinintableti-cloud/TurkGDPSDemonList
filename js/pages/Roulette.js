@@ -18,11 +18,11 @@ export default {
                 <form class="options">
                     <div class="check">
                         <input type="checkbox" id="main" value="Main List" v-model="useMainList">
-                        <label for="main">Ana Liste</label>
+                        <label for="main">Main List</label>
                     </div>
                     <div class="check">
                         <input type="checkbox" id="extended" value="Extended List" v-model="useExtendedList">
-                        <label for="extended">Genişletilmiş Liste</label>
+                        <label for="extended">Extended List</label>
                     </div>
                     <Btn @click.native.prevent="onStart">{{ levels.length === 0 ? 'Başlat' : 'Yeniden Başlat'}}</Btn>
                 </form>
